@@ -25,6 +25,7 @@ namespace Tutorial8.Controllers
         [HttpGet("{id}")]
         public async Task<IActionResult> GetTrip(int id)
         {
+            Console.WriteLine("works2");
             // if( await DoesTripExist(id)){
             //  return NotFound();
             // }
